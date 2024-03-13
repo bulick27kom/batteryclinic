@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+}
+
+.logo-box {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.lang {
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 20px;
+    font-weight: 500;
+}
+
+.lang a {
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+.log-image {
+    height: 171px;
+}
+
+.content {
+    height: 100vh;
+    color: white;
+    background-image: url(../img/bg2.jpg);
+
+    text-align: center;
+}
+
+h1 {
+    padding-top: 50px;
+}
