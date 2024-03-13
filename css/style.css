@@ -8,15 +8,18 @@ header {
 }
 
 .logo-box {
-    padding-top: 20px;
+    padding-top: 30px;
     padding-bottom: 30px;
 }
 
 .lang {
     text-align: right;
     padding-right: 50px;
+    margin-left: auto;
     padding-top: 20px;
     font-weight: 500;
+    position: absolute;
+    right: 0;
 }
 
 .lang a {
