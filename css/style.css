@@ -3,8 +3,8 @@
     padding: 0;
 }
 
-header {
-    background-image: url(../img/bg.png);
+body {
+    background-image: url(../img/bg-2.png);
 }
 
 .logo-box {
@@ -33,7 +33,7 @@ header {
 
 .log-image {
     height: 170px;
-    padding-left: 40px;
+    padding-left: 20px;
 }
 
 .header-text-block {
@@ -47,6 +47,7 @@ header {
 
 .content-left {
     /* height: 100vh; */
+    /* border-radius: 10px; */
     color: white;
     background-image: url(../img/bg2.jpg);
     text-align: center;
@@ -84,9 +85,64 @@ header {
 }
 
 .content-rigth img {
-    height: 250px;
+    width: 350px;
+}
+.content-rigth img:not(:first-child) {
+    padding-top: 7px;
+}
+
+.main-text {
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.head-text,
+footer {
+    border-right: solid;
+    border-color: rgb(8, 8, 186);
+    text-align: right;
+    padding-right: 20px;
+}
+
+.head-text {
+    padding-top: 40px;
+    margin-top: 50px;
+}
+.head-text p {
+    margin-bottom: 0px;
+}
+
+.text-solid {
+    font-weight: 500;
+}
+
+.middle-text {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
 }
 
 footer {
-    margin-top: 50px;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    height: 100px;
+}
+
+.footer-text {
+    float: right;
+    height: 60px;
+}
+
+.footer-adres {
+    font-weight: 500;
+}
+
+.footer-site-adres {
+    font-weight: bold;
+}
+
+.qrcode {
+    height: 70px;
+    padding-left: 20px;
 }
