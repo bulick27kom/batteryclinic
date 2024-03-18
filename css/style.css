@@ -219,3 +219,7 @@ footer {
         padding-left: 30px;
     }
 }
+
+@media (min-width: 481px) and (max-width:780px){
+    
+} 
