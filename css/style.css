@@ -4,7 +4,6 @@
 }
 
 header {
-    text-align: center;
     background-image: url(../img/bg.png);
 }
 
@@ -15,11 +14,11 @@ header {
 
 .lang {
     text-align: right;
-    padding-right: 50px;
-    margin-left: auto;
+    /* padding-right: 50px; */
+    /* margin-left: auto; */
     padding-top: 20px;
-    position: absolute;
-    right: 0;
+    /* position: absolute; */
+    /* right: 0; */
 }
 
 .lang img {
@@ -39,34 +38,53 @@ header {
 
 .header-text-block {
     text-align: left;
-    margin-top: 60px;
+    margin-top: 50px;
     padding-left: 50px;
     font-weight: 500;
+    font-size: 20px;
     text-transform: uppercase;
 }
 
-.content {
-    height: 100vh;
+.content-left {
+    /* height: 100vh; */
     color: white;
     background-image: url(../img/bg2.jpg);
     text-align: center;
 }
 
-h1 {
-    padding-top: 50px;
+.servise-title {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: left;
 }
 
 .services {
-    margin-top: 30px;
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
+    padding-top: 30px;
+    padding-left: 150px;
     text-align: left;
-    display: block;
+}
+
+.services p {
+    height: 50px;
+    line-height: 120%;
 }
 
 .pickt {
     height: 40px;
+    display: block;
+    float: left;
+    padding-right: 20px;
+}
+
+.service-garanty {
+    padding-top: 30px;
+    font-size: small;
+}
+
+.content-rigth img {
+    height: 250px;
 }
 
 footer {
