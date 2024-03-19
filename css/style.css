@@ -38,9 +38,9 @@ body {
 
 .header-text-block {
     text-align: left;
-    margin-top: 50px;
+    margin-top: 30px;
     padding-left: 50px;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 20px;
     text-transform: uppercase;
 }
@@ -188,7 +188,7 @@ footer {
     }
     .services p {
         height: 25px;
-        font-size: 9px;
+        font-size: 10px;
     }
     .pickt {
         height: 25px;
