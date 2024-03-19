@@ -48,7 +48,7 @@ body {
 }
 
 .experience {
-    padding-top: 25px;
+    padding-top: 10px;
 }
 
 .content-left {
@@ -145,13 +145,8 @@ footer {
     font-weight: 500;
 }
 
-.footer-site-adres {
-    /* font-weight: bold; */
-    font-weight: 500;
-}
-
 .qrcode {
-    height: 70px;
+    height: 75px;
     padding-left: 20px;
 }
 
@@ -173,7 +168,7 @@ footer {
     }
 
     .experience {
-        padding-top: 10px;
+        padding-top: 0px;
     }
 
     .lang {
@@ -251,7 +246,7 @@ footer {
     }
 
     .experience {
-        padding-top: 10px;
+        padding-top: 0px;
     }
 
     .lang {
@@ -331,7 +326,7 @@ footer {
     }
 
     .experience {
-        padding-top: 10px;
+        padding-top: 0px;
     }
 
     .lang {
