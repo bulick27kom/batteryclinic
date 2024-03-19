@@ -147,7 +147,76 @@ footer {
     padding-left: 20px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 419px) {
+    .logo-box {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .log-image {
+        height: 50px;
+        padding-left: 0px;
+    }
+
+    .header-text-block {
+        margin-top: 10px;
+        padding-left: 0px;
+        font-size: 7px;
+    }
+
+    .lang {
+        padding-top: 12px;
+        text-align: center;
+    }
+
+    .lang img {
+        height: 15px;
+        margin-top: 5px;
+    }
+    .lang a {
+        padding-right: 0px;
+    }
+
+    .servise-title {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 10px;
+    }
+    .services {
+        padding-top: 0px;
+        padding-left: 20px;
+    }
+    .services p {
+        height: 25px;
+        font-size: 9px;
+    }
+    .pickt {
+        height: 25px;
+        padding-right: 10px;
+    }
+    .service-garanty {
+        font-size: 8px;
+    }
+    .content-rigth img {
+        width: 110px;
+    }
+    .content-rigth img:not(:first-child) {
+        padding-top: 80px;
+    }
+
+    .main-text {
+        font-size: 13px;
+        text-align: justify;
+        padding-left: 10px;
+    }
+    .middle-text {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+    }
+}
+
+@media (min-width: 420px) and (max-width: 480px) {
     .logo-box {
         padding-top: 10px;
         padding-bottom: 10px;
@@ -179,14 +248,14 @@ footer {
 
     .servise-title {
         padding-top: 10px;
-        padding-bottom: 20px;
-        font-size: 15px;
+        padding-bottom: 10px;
+        font-size: 10px;
     }
     .services {
-        padding-top: 5px;
+        padding-top: 0px;
         padding-left: 25px;
     }
-    .services p:not(:last-child) {
+    .services p {
         height: 25px;
         line-height: 120%;
         font-size: 10px;
@@ -198,14 +267,13 @@ footer {
         padding-right: 10px;
     }
     .service-garanty {
-        padding-top: 10px;
         font-size: 8px;
     }
     .content-rigth img {
-        width: 150px;
+        width: 120px;
     }
     .content-rigth img:not(:first-child) {
-        padding-top: 60px;
+        padding-top: 70px;
     }
 
     .main-text {
