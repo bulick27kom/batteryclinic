@@ -227,6 +227,9 @@ footer {
         padding-bottom: 20px;
         padding-left: 30px;
     }
+    .head-text {
+        margin-top: 10px;
+    }
 }
 
 @media (min-width: 420px) and (max-width: 480px) {
@@ -305,6 +308,9 @@ footer {
         padding-bottom: 20px;
         padding-left: 30px;
     }
+    .head-text {
+        margin-top: 10px;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 580px) {
@@ -376,6 +382,9 @@ footer {
     .content-rigth {
         display: none;
     }
+    .head-text {
+        margin-top: 15px;
+    }
 }
 
 @media (min-width: 581px) and (max-width: 780px) {
@@ -444,6 +453,10 @@ footer {
     .content-rigth {
         display: none;
     }
+
+    .head-text {
+        margin-top: 20px;
+    }
 }
 @media (min-width: 781px) and (max-width: 990px) {
     .logo-box {
@@ -508,5 +521,8 @@ footer {
 
     .content-rigth {
         display: none;
+    }
+    .head-text {
+        margin-top: 25px;
     }
 }
