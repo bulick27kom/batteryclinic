@@ -38,11 +38,17 @@ body {
 
 .header-text-block {
     text-align: left;
-    margin-top: 30px;
-    padding-left: 50px;
+    margin-top: 40px;
+    padding-left: 40px;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 18px;
     text-transform: uppercase;
+    line-height: 130%;
+    font-stretch: 150%;
+}
+
+.experience {
+    padding-top: 25px;
 }
 
 .content-left {
@@ -139,7 +145,8 @@ footer {
 }
 
 .footer-site-adres {
-    font-weight: bold;
+    /* font-weight: bold; */
+    font-weight: 500;
 }
 
 .qrcode {
@@ -162,6 +169,10 @@ footer {
         margin-top: 10px;
         padding-left: 0px;
         font-size: 7px;
+    }
+
+    .experience {
+        padding-top: 10px;
     }
 
     .lang {
@@ -233,6 +244,10 @@ footer {
         font-size: 8px;
     }
 
+    .experience {
+        padding-top: 10px;
+    }
+
     .lang {
         padding-top: 12px;
         text-align: center;
@@ -288,7 +303,7 @@ footer {
     }
 }
 
-@media (min-width: 481px) and (max-width: 780px) {
+@media (min-width: 481px) and (max-width: 580px) {
     .logo-box {
         padding-top: 10px;
         padding-bottom: 10px;
@@ -303,6 +318,11 @@ footer {
         padding-left: 15px;
         font-size: 10px;
     }
+
+    .experience {
+        padding-top: 10px;
+    }
+
     .lang {
         padding-top: 12px;
         text-align: center;
@@ -353,6 +373,63 @@ footer {
 }
 
 @media (min-width: 581px) and (max-width: 780px) {
+    .logo-box {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .log-image {
+        height: 80px;
+        padding-left: 5px;
+    }
+    .header-text-block {
+        margin-top: 15px;
+        padding-left: 15px;
+        font-size: 10px;
+    }
+    .experience {
+        padding-top: 10px;
+    }
+    .lang {
+        padding-top: 12px;
+        text-align: center;
+    }
+
+    .lang img {
+        height: 25px;
+        margin-top: 5px;
+    }
+    .lang a {
+        padding-right: 0px;
+    }
+
+    .servise-title {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        font-size: 15px;
+    }
+    .services {
+        padding-top: 5px;
+        padding-left: 55px;
+    }
+
+    .services p:not(:last-child) {
+        height: 30px;
+        line-height: 120%;
+        font-size: 12px;
+    }
+
+    .service-garanty {
+        padding-top: 10px;
+        font-size: 9px;
+    }
+
+    .pickt {
+        height: 30px;
+        display: block;
+        float: left;
+        padding-right: 9px;
+    }
     .content-rigth img {
         width: 180px;
     }
