@@ -77,6 +77,8 @@ body {
 .services p {
     height: 50px;
     line-height: 120%;
+    display: flex;
+    align-items: center;
 }
 
 .pickt {
@@ -84,6 +86,10 @@ body {
     display: block;
     float: left;
     padding-right: 20px;
+}
+
+.servise-descriprion {
+    margin: 0;
 }
 
 .service-garanty {
