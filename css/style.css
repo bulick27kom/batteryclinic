@@ -79,6 +79,7 @@ body {
     line-height: 120%;
     display: flex;
     align-items: center;
+    font-size: 18px;
 }
 
 .pickt {
@@ -232,6 +233,11 @@ footer {
     .head-text {
         margin-top: 10px;
     }
+
+    .qrcode {
+        height: 60px;
+        padding-left: 10px;
+    }
 }
 
 @media (min-width: 420px) and (max-width: 480px) {
@@ -278,18 +284,18 @@ footer {
         padding-left: 25px;
     }
     .services p {
-        height: 25px;
+        height: 28px;
         line-height: 120%;
         font-size: 10px;
     }
     .pickt {
-        height: 25px;
+        height: 28px;
         display: block;
         float: left;
         padding-right: 10px;
     }
     .service-garanty {
-        font-size: 8px;
+        font-size: 9px;
     }
     .content-left {
         width: 100%;
@@ -312,6 +318,11 @@ footer {
     }
     .head-text {
         margin-top: 10px;
+    }
+
+    .qrcode {
+        height: 60px;
+        padding-left: 10px;
     }
 }
 
@@ -433,12 +444,12 @@ footer {
     .services p:not(:last-child) {
         height: 30px;
         line-height: 120%;
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .service-garanty {
         padding-top: 10px;
-        font-size: 9px;
+        font-size: 10px;
     }
 
     .pickt {
@@ -491,7 +502,7 @@ footer {
     .servise-title {
         padding-top: 10px;
         padding-bottom: 20px;
-        font-size: 15px;
+        font-size: 18px;
     }
     .services {
         padding-top: 5px;
@@ -501,7 +512,7 @@ footer {
     .services p:not(:last-child) {
         height: 40px;
         line-height: 120%;
-        font-size: 15px;
+        font-size: 18px;
     }
 
     .service-garanty {

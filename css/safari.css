@@ -1,0 +1,18 @@
+@media (max-width: 419px) {
+    .log-image {
+        height: 45px;
+        padding-left: 0px;
+    }
+
+    .header-text-block {
+        margin-top: 10px;
+        padding-left: 0px;
+        font-size: 6px;
+    }
+}
+
+@media (min-width: 420px) and (max-width: 480px) {
+    .header-text-block {
+        font-size: 7px;
+    }
+}
